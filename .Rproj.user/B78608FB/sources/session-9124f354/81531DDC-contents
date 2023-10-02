@@ -2,14 +2,13 @@
 # old
 # Deprecated version of %pre%
 #'
-#' @param .data array like object, or list
-#' @param prefix prefix to gather elements based upon
+#' @param .data
+#' @param prefix
 #'
 #' @return
 #' @export
 #'
 #' @examples
-#'
 '%#%' <- function(.data, prefix) {
   prefix <- as.character(substitute(prefix))
   .data[startsWith(colnames(.data), prefix)]
