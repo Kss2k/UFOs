@@ -2,7 +2,7 @@
 % Please edit documentation in R/UFOs.R
 \name{\%!rgx\%}
 \alias{\%!rgx\%}
-\title{Title}
+\title{Select variables not matching regular expression}
 \usage{
 .data \%!rgx\% regex
 }
@@ -10,5 +10,8 @@
 \item{regex}{}
 }
 \description{
-Title
+Select variables not matching regular expression
+}
+\examples{
+iris \%!rgx\% "^Petal"
 }

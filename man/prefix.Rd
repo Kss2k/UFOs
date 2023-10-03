@@ -2,7 +2,7 @@
 % Please edit documentation in R/UFOs.R
 \name{prefix}
 \alias{prefix}
-\title{Select Variable by prefix}
+\title{Select variables matching prefix}
 \usage{
 prefix(.data, prefix)
 }
@@ -12,8 +12,8 @@ prefix(.data, prefix)
 \item{prefix}{prefix to find variables by}
 }
 \description{
-Select Variable by prefix
+Select variables matching prefix
 }
 \examples{
-cars\%pre\%spe
+prefix(iris, Sepal)
 }

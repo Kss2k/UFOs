@@ -2,7 +2,7 @@
 % Please edit documentation in R/UFOs.R
 \name{\%!match\%}
 \alias{\%!match\%}
-\title{Title}
+\title{Select variables not containing pattern}
 \usage{
 .data \%!match\% pattern
 }
@@ -10,5 +10,8 @@
 \item{pattern}{}
 }
 \description{
-Title
+Select variables not containing pattern
+}
+\examples{
+iris \%!match\% Len
 }

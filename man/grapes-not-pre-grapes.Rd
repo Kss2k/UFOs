@@ -2,7 +2,7 @@
 % Please edit documentation in R/UFOs.R
 \name{\%!pre\%}
 \alias{\%!pre\%}
-\title{Title}
+\title{Select varibles not matching prefix}
 \usage{
 .data \%!pre\% prefix
 }
@@ -10,5 +10,8 @@
 \item{prefix}{}
 }
 \description{
-Title
+Select varibles not matching prefix
+}
+\examples{
+iris \%!pre\% Sepal
 }

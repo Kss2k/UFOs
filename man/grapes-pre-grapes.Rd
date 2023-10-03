@@ -14,3 +14,6 @@
 \description{
 Select Variable by prefixoperator
 }
+\examples{
+iris \%pre\% Sepal
+}

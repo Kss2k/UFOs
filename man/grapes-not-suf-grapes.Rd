@@ -2,7 +2,7 @@
 % Please edit documentation in R/UFOs.R
 \name{\%!suf\%}
 \alias{\%!suf\%}
-\title{Title}
+\title{Select variables not ending with pattern}
 \usage{
 .data \%!suf\% suffix
 }
@@ -10,5 +10,8 @@
 \item{suffix}{}
 }
 \description{
-Title
+Select variables not ending with pattern
+}
+\examples{
+iris \%!suf\% Length
 }

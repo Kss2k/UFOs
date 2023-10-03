@@ -2,7 +2,7 @@
 % Please edit documentation in R/UFOs.R
 \name{antiPrefix}
 \alias{antiPrefix}
-\title{Title}
+\title{Select varibles not matching prefix}
 \usage{
 antiPrefix(.data, prefix)
 }
@@ -10,5 +10,8 @@ antiPrefix(.data, prefix)
 \item{prefix}{}
 }
 \description{
-Title
+Select varibles not matching prefix
+}
+\examples{
+antiPrefix(iris, Sepal)
 }

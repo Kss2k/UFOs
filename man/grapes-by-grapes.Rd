@@ -2,7 +2,7 @@
 % Please edit documentation in R/UFOs.R
 \name{\%by\%}
 \alias{\%by\%}
-\title{Title}
+\title{Split data by variables}
 \usage{
 .data \%by\% by.variable
 }
@@ -10,5 +10,5 @@
 \item{by.variable}{}
 }
 \description{
-Title
+Split data by variables
 }
